@@ -1,42 +1,44 @@
 export const initPlayers = [
     {
       id:1,
-      active:true
+      imgPath:`/src/assets/Regular face 1.png`
     },
     {
       id:2,
-      active:false
+      imgPath:`/src/assets/Regular face 2.png`
     },
     {
       id:3,
-      active:false
+      imgPath:`/src/assets/Regular face 3.png`
     },
     {
       id:4,
-      active:false
+      imgPath:`/src/assets/Regular face 4.png`
     },
     {
       id:5,
-      active:false
+      imgPath:`/src/assets/Regular face 5.png`
     },
     {
       id:6,
-      active:false
+      imgPath:`/src/assets/Regular face 6.png`
     },
     {
       id:7,
-      active:false
+      imgPath:`/src/assets/Regular face 7.png`
     },
     {
       id:8,
-      active:false
+      imgPath:`/src/assets/Regular face 8.png`
     },
     {
       id:9,
-      active:false
+      imgPath:`/src/assets/Regular face 9.png`
     },
     {
       id:10,
-      active:false
+      imgPath:`/src/assets/Regular face 10.png`
     },
   ]
+
+  

@@ -1,8 +1,8 @@
+import style from './Player.module.css'
 export const Player = ({player}) => {
-    const imagePath = `./../assets/Regular face ${player.id}.png`
     return (
         <>
-        <img src={imagePath} alt="фото" />
+        <img className={style.photo} src={player.imgPath} alt="фото" />
         </>
     )
 }

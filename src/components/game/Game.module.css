@@ -2,7 +2,93 @@
     height: 100vh;
     width: 100%;
     display: flex;
-    align-items: center;
-    margin: auto;
-    justify-content: center;
+    position: relative;
+}
+
+.bottle{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    cursor: pointer;
+}
+
+.bottleSpin{
+    animation:turnBottle 0.5s 8 linear;
+}
+
+.players div{
+    display: flex;
+    width: 3%;
+    height: 15%;
+    position: absolute;
+}
+
+
+
+/* 0 */
+.players div:nth-child(1) {
+    top: 30%;
+    left: 49%;
+}
+ /* 36 */ 
+.players div:nth-child(2) {
+    top: 32%;
+    left: 58%;
+    transform: translateX(-50%) ;
+}
+/* 72 */
+.players div:nth-child(3) {
+    top: 45%;
+    left: 61%;
+    transform: translateX(-50%) ;
+}
+/* 108 */
+.players div:nth-child(4) {
+    top: 59%;
+    left: 61%;
+    transform: translateX(-50%) ;
+}
+/* 144 */
+.players div:nth-child(5) {
+    top: 72%;
+    left: 58%;
+    transform: translateX(-50%) ;
+}
+/* 180 */
+.players div:nth-child(6) {
+    top: 75%;
+    left: 49%;
+}
+/* 216 */
+.players div:nth-child(7) {
+    top: 72%;
+    left: 43%;
+    transform: translateX(-50%) ;
+}
+/* 252 */
+.players div:nth-child(8) {
+    top: 59%;
+    left: 40%;
+    transform: translateX(-50%) ;
+}
+/* 288 */
+.players div:nth-child(9) {
+    top: 45%;
+    left: 40%;
+    transform: translateX(-50%) ;
+}
+/* 324 */
+.players div:nth-child(10) {
+    top: 32%;
+    left: 43%;
+    transform: translateX(-50%) ;
+}
+
+@keyframes turnBottle {
+    0%{ 
+        transform: rotate(0deg);
+    }
+    100%{
+        transform: rotate(360deg);
+    }
 }
